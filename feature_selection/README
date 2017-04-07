@@ -1,0 +1,13 @@
+---------------------------------------------------
+See root folder of archive for general information!
+---------------------------------------------------
+
+
+https://github.com/rsling/texrex
+https://link.springer.com/article/10.1007/s10579-016-9359-2
+
+This folder contains the Weka ARFF files which were used to evaluate
+the feature merit for all four datasets. Also, the raw evaluation
+output and a derived CSV version are provided. For format details, cf.
+
+http://www.cs.waikato.ac.nz/ml/weka/

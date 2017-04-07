@@ -1,0 +1,36 @@
+Merit	Meritstdv	Rank	Rankstdv	Id	Feature
+0.03	±0.001	1.1	±0.3	37	Window2
+0.029	±0.001	1.9	±0.3	36	Window1
+0.026	±0.001	3	±0	1	Length
+0.024	±0.001	4.4	±0.49	6	MarkupProp
+0.023	±0.001	4.6	±0.49	19	SentCount
+0.01	±0.001	6	±0	21	EndsPunct
+0.005	±0.001	7.2	±0.4	18	SentLength
+0.004	±0	7.8	±0.4	34	OpenProp
+0.001	±0	9.7	±0.46	30	ContBlock
+0	±0	11.7	±1.19	10	TagProp
+0	±0	11.9	±0.3	29	ContH
+0	±0	13.1	±1.58	8	LetterProp
+0	±0	13.1	±0.3	11	EmailProp
+0	±0	14.2	±1.6	9	NumberProp
+0.001	±0.001	16	±10.7	2	PageProp
+0	±0	16.5	±0.81	7	PunctProp
+0	±0	17	±1.55	32	ContLi
+0	±0	17.8	±0.4	3	PercText
+0	±0	18.8	±0.4	4	PercDiv
+0	±0	18.9	±1.7	13	HashProp
+0	±0	20.8	±0.4	12	UriProp
+0	±0	21.8	±0.4	14	YearProp
+0	±0	22.8	±0.4	28	ContP
+0	±0	23.8	±0.4	26	ContSection
+0	±0	24.8	±0.4	27	ContDiv
+0	±0	26.4	±0.66	20	Copy
+0	±0	26.8	±0.4	25	ContArticle
+0	±0	27.9	±1.7	15	AnchorProp
+0	±0	28.1	±0.3	31	ContTd
+0	±0	30.1	±0.3	33	ContClose
+-0.001	±0.001	30.7	±6.9	17	SentBogus
+0	±0	31.1	±0.3	16	UpperProp
+0	±0	31.2	±1.25	35	SkippedDivs
+
+

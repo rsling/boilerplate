@@ -1,0 +1,31 @@
+---------------------------------------------------------------
+texrex-neuedimensionen boilerplate training and evaluation data
+---------------------------------------------------------------
+
+
+https://github.com/rsling/texrex
+https://link.springer.com/article/10.1007/s10579-016-9359-2
+
+This is the texrex-neuedimensionen (and later) boilerplate detection
+training data. It is described in
+
+Roland Schäfer (2016) Accurate and efficient general-purpose
+boilerplate detection for crawled web corpora.
+
+https://link.springer.com/article/10.1007/s10579-016-9359-2
+
+This archive contains all data to verify and replicate the results
+reported in that paper, more specifically
+
+1. the original HTML files
+2. the text-only versions from texrex including block splitting
+3. the feature values extracted by texrex for each block
+4. the annotator decisions for each block
+5. training data ready for the FANN library
+6. feature evaluation setup and output for Weka
+7. Weka experiment setup and results for classifier comparison
+
+See the subfolders and included README files for more information.
+
+Author and contact for questions:
+Roland Schäfer <roland.schaefer@fu-berlin.de>

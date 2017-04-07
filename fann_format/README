@@ -1,0 +1,13 @@
+---------------------------------------------------
+See root folder of archive for general information!
+---------------------------------------------------
+
+
+https://github.com/rsling/texrex
+https://link.springer.com/article/10.1007/s10579-016-9359-2
+
+This is the texrex-neuedimensionen (and later) boilerplate detection
+training data in the format accepted by the FANN library and the
+tenet training tool included in texrex. For format details, cf.
+
+http://leenissen.dk/fann/wp/

@@ -1,0 +1,87 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.ClassifierAttributeEval -execution-slots 8 -B weka.classifiers.functions.MultilayerPerceptron -F 5 -T 0.01 -R 1 -E DEFAULT -- -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Search:       weka.attributeSelection.Ranker -P 5,22,23,24 -T -1.7976931348623157E308 -N -1
+Relation:     boilerplate.fr
+Instances:    12516
+Attributes:   38
+              Length
+              PageProp
+              PercText
+              PercDiv
+              DocMarkupProp
+              MarkupProp
+              PunctProp
+              LetterProp
+              NumberProp
+              TagProp
+              EmailProp
+              UriProp
+              HashProp
+              YearProp
+              AnchorProp
+              UpperProp
+              SentBogus
+              SentLength
+              SentCount
+              Copy
+              EndsPunct
+              DtXhtml
+              DtHtml4
+              DtHtml5
+              ContArticle
+              ContSection
+              ContDiv
+              ContP
+              ContH
+              ContBlock
+              ContTd
+              ContLi
+              ContClose
+              OpenProp
+              SkippedDivs
+              Window1
+              Window2
+              Boiler
+Evaluation mode:    10-fold cross-validation
+
+
+
+=== Attribute selection 10 fold cross-validation (stratified), seed: 1 ===
+
+average merit      average rank  attribute
+ 0.028 +- 0.001      1   +- 0        1 Length
+ 0.025 +- 0.001      2   +- 0       19 SentCount
+ 0.018 +- 0.002      3.2 +- 0.4     18 SentLength
+ 0.014 +- 0.001      4.2 +- 0.6     21 EndsPunct
+ 0.013 +- 0.002      4.7 +- 0.78     6 MarkupProp
+ 0.011 +- 0.001      5.9 +- 0.3     37 Window2
+ 0.006 +- 0.001      7.5 +- 0.5     17 SentBogus
+ 0.006 +- 0.001      7.5 +- 0.5     34 OpenProp
+ 0.001 +- 0.001     11.5 +- 7.17    36 Window1
+ 0     +- 0         12.1 +- 1.51     9 NumberProp
+ 0     +- 0         13   +- 1.26    10 TagProp
+ 0     +- 0         13.6 +- 2.8     11 EmailProp
+ 0     +- 0         14.7 +- 1.35     8 LetterProp
+ 0     +- 0         16.5 +- 3.07    13 HashProp
+ 0     +- 0         16.7 +-10.25    30 ContBlock
+ 0     +- 0         16.9 +- 1.14     7 PunctProp
+ 0     +- 0         17.4 +- 0.66     3 PercText
+ 0     +- 0         17.7 +- 5.66    29 ContH
+ 0     +- 0         18.2 +- 1.17     4 PercDiv
+ 0     +- 0         19.6 +- 2.58    12 UriProp
+ 0     +- 0         21.3 +- 4.5     32 ContLi
+ 0     +- 0         21.7 +- 0.46    14 YearProp
+-0     +- 0.001     23.8 +-10.88     2 PageProp
+ 0     +- 0         24.5 +- 1.86    28 ContP
+ 0     +- 0         24.7 +- 1.35    27 ContDiv
+ 0     +- 0         25.7 +- 1.73    26 ContSection
+ 0     +- 0         26   +- 2.49    15 AnchorProp
+ 0     +- 0         27.1 +- 1.04    25 ContArticle
+ 0     +- 0         27.7 +- 8.27    16 UpperProp
+ 0     +- 0         28   +- 3.87    33 ContClose
+ 0     +- 0         28.5 +- 2.25    31 ContTd
+ 0     +- 0         28.5 +- 3.98    35 SkippedDivs
+ 0     +- 0         29.6 +- 2.01    20 Copy
+
+
